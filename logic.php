@@ -1,7 +1,7 @@
 <?php
 
 
-require_once "Gallery.php";
+require("Gallery.php");
 
 
 $json = file_get_contents("art_data.json");
