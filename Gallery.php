@@ -2,7 +2,6 @@
 
 class Gallery{
     
-    private $objects;
 
     public function __construct($jsonPath) {
         $artJson = file_get_contents($jsonPath);
