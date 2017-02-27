@@ -1,12 +1,13 @@
 <?php require('logic.php'); ?>
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="/css/style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
 </head>
 <body>
 <div class="page-header" style="text-align:center;">
@@ -32,21 +33,22 @@
 <div class="col-md-6 col-lg-6" style="text-align:center;">
 <form method='POST' action="/">
 
-  Object type:<br>
-  <input type="checkbox" name="checkbox[]" value="textile"> textiles<br>
-  <input type="checkbox" name="checkbox[]" value="decorative"> decorative<br> 
-  <input type="checkbox" name="checkbox[]" value="painting"> paintings<br> 
+  <h4>Object type</h4>
+  <input type="checkbox" name="checkbox[]" value="textile"> textiles<br></br>
+  <input type="checkbox" name="checkbox[]" value="decorative"> decorative<br></br> 
+  <input type="checkbox" name="checkbox[]" value="painting"> paintings<br></br> 
   <input type="checkbox" name="checkbox[]" value="sculpture"> sculptures<br> 
+  <hr style="width:200px"></hr>
 
 
-  <br></br>
-  Date of creation:
-  <br>
-  <input type="radio" name="century" value="17"> 1600-1800 AD<br>
-  <input type="radio" name="century" value="18"> 1800-1900 AD<br>
-  <input type="radio" name="century" value="20"> 1900-present<br>  
+  <h4>Date of creation</h4>
+  <input type="radio" name="century" value="17"> 1600-1800 AD<br></br>
+  <input type="radio" name="century" value="18"> 1800-1900 AD<br></br>
+  <input type="radio" name="century" value="20"> 1900-present<br></br>  
 
-  <br></br>
+  <hr style="width:200px"></hr>
+
+  <h4>Continent</h4>
 
   <select name="continent">
   <option value="Africa">Africa</option>
