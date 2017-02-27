@@ -16,9 +16,9 @@
 <div class="container-fluid">
 <div class="row">
 <div class="col-md-6 col-lg-6" style="text-align:center;">
-	<? if(count($image_data)==0){ echo "no results found for ".$continent_choice; }?>
+	<?php if(count($image_data)==0){ echo "no results found for ".$continent_choice; }?>
 	<ul class="gallery">
-		<? foreach($image_data as $image_key=>$image_value) { ?>
+		<?php foreach($image_data as $image_key=>$image_value) { ?>
                 <?='<li>'?>
 		<?='<img src="/images/'.$image_value['file_name'].'" style="width:100px;">'?>
 		<?='<span style="margin:300px 0px 0px 0px;">'?>
@@ -26,7 +26,7 @@
                 <?= $image_value['description']; ?>
 		<?='</span>'?>
 		<?='</li>'?>
-	  	<?}?>
+	  	<?php }?>
 	</ul>
 </div>
 <div class="col-md-6 col-lg-6" style="text-align:center;">
