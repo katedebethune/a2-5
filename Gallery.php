@@ -2,10 +2,10 @@
 
 class Gallery{
     
-    private $objects;
+    //private $objects;
 
     public function __construct($jsonPath) {
-        $this->artJSon = file_get_contents("art_data.json");
+     //   $this->artJSon = file_get_contents("art_data.json");
         $artJson = file_get_contents($jsonPath);
         $this->objects = json_decode($artJson);
     }
