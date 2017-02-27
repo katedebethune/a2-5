@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Highlights from the Met</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
@@ -34,19 +35,19 @@
 <form method='POST' action="/">
 
   <h4>Object type</h4>
-  <input type="checkbox" name="checkbox[]" value="textile"> textiles<br></br>
-  <input type="checkbox" name="checkbox[]" value="decorative"> decorative<br></br> 
-  <input type="checkbox" name="checkbox[]" value="painting"> paintings<br></br> 
+  <input type="checkbox" name="checkbox[]" value="textile"> textiles<br><br>
+  <input type="checkbox" name="checkbox[]" value="decorative"> decorative<br><br> 
+  <input type="checkbox" name="checkbox[]" value="painting"> paintings<br><br> 
   <input type="checkbox" name="checkbox[]" value="sculpture"> sculptures<br> 
-  <hr style="width:200px"></hr>
+  <hr style="width:200px">
 
 
   <h4>Date of creation</h4>
-  <input type="radio" name="century" value="17"> 1600-1800 AD<br></br>
-  <input type="radio" name="century" value="18"> 1800-1900 AD<br></br>
-  <input type="radio" name="century" value="20"> 1900-present<br></br>  
+  <input type="radio" name="century" value="17"> 1600-1800 AD<br><br>
+  <input type="radio" name="century" value="18"> 1800-1900 AD<br><br>
+  <input type="radio" name="century" value="20"> 1900-present<br><br>  
 
-  <hr style="width:200px"></hr>
+  <hr style="width:200px">
 
   <h4>Continent</h4>
 
