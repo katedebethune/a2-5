@@ -54,7 +54,7 @@
 <hr style="width:200px">
 <form method='POST' action="/">
 
-  <label for="checkbox"><h4>Object type</h4></label>
+  <label for="checkbox">Object type</label>
 
   <br>
   <input type="checkbox" name="checkbox[]" value="textile"> textiles<br><br>
@@ -64,7 +64,7 @@
   <hr style="width:200px">
 
 
-  <label for="century"><h4>Date of creation</h4></label>
+  <label for="century">Date of creation</label>
   <br>
   <input type="radio" name="century" value="17"> 1600-1800 AD<br><br>
   <input type="radio" name="century" value="18"> 1800-1900 AD<br><br>
@@ -72,7 +72,7 @@
 
   <hr style="width:200px">
 
-  <label for="continent"><h4>Continent</h4></label>
+  <label for="continent">Continent</label>
   <br>
 
   <select name="continent">

@@ -16,8 +16,8 @@ if($form->isSubmitted()){
 	$period = $form->get('century');
         $objects = $form->get('checkbox');	
 
-
-	$fields = ['continent','century','checkbox'];
+	
+        $fields = ['continent','century','checkbox'];
 
 	foreach($fields as $field) {
   		if (empty($_POST[$field])) {
