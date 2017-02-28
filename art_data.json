@@ -7,21 +7,7 @@
 			           									 }
 			           									 
 			           									 ]	
-			           						  },{"type":"sculpture",
-			           						     "details":[{"file_name":"europe_sculpture_18_1.jpg"
-			           						  			  ,"description":"test2"
-			           						  			  }
-			           						  			  
-			           						  			  ] 
-			           				         },{"type":"decorative",
-			           						     "details":[{"file_name":"europe_decorative_18_1.jpg"
-			           						  			  ,"description":"test2"
-			           						  			  },
-			           						  			  {"file_name":"europe_decorative_18_2.jpg"
-			           						  			  ,"description":"test2"
-			           						  			  } 
-			           						  			  ] 
-			           				         },{"type":"textile",
+			           						  },{"type":"textile",
 			           						     "details":[{"file_name":"europe_textile_18_1.jpg"
 			           						  			  ,"description":"Stole, 18th century (Silk and metal)"
 			           						  			  }
@@ -31,29 +17,13 @@
 			           				},{"name": "18"
 			           				      ,"types":[{"type":"painting",
 			           				                 "details":[{"file_name":"europe_painting_19_1.jpg"                          
-			           								  ,"description":"test" 		
+			           								  ,"description":"Painting, 19th century" 		
 			           								  },
 			           								  {"file_name":"europe_painting_19_2.jpg"                          
-			           								  ,"description":"test" 
+			           								  ,"description":"Study for 'A Sunday on La Grande Jatte', Georges Serat 1884 (Oil on Canvas)" 
 			           								   } 
 			           								  ]             		  
-			           				                },{"type":"sculpture",
-			           				                 "details":[{"file_name":"europe_sculpture_19_1.jpg"                          
-			           									        ,"description":"test" 		
-			           									        },
-			           									        {"file_name":"europe_sculpture_19_2.jpg"                          
-			           									        ,"description":"test" 
-			           									        } 
-			           						           		   ]
-			           						        },{"type":"decorative",
-			           				                 "details":[{"file_name":"europe_decorative_19_1.jpg"                          
-			           									        ,"description":"test" 		
-			           									        },
-			           									        {"file_name":"europe_decorative_19_2.jpg"                          
-			           									        ,"description":"test" 
-			           									        } 
-			           						           		   ]
-			           						        },{"type":"textile",
+			           				                },{"type":"textile",
 			           				                 "details":[{"file_name":"europe_textile_19_1.jpg"                          
 			           									        ,"description":"Apron, 19th century" 		
 			           									        },
@@ -76,10 +46,7 @@
 			           				                },{"type":"sculpture",
 			           				                 "details":[{"file_name":"europe_sculpture_20_1.jpg"                          
 			           									        ,"description":"Seated Woman, Artiste Maillol, 1900 (Plaster)" 		
-			           									        },
-			           									        {"file_name":"europe_sculpture_20_2.jpg"                          
-			           									        ,"description":"test" 
-			           									        } 
+			           									        }
 			           						           		   ]
 			           						        },{"type":"textile",
 			           				                 "details":[{"file_name":"europe_textile_20_1.jpg"                          
@@ -102,7 +69,7 @@
 			           									  ,"description":"Margaret Strachen, Charles Wilson Peale, 1771 (Oil on canvas)" 		
 			           									 },
 			           									 {"file_name":"americas_painting_18_2.jpg"                          
-			           									  ,"description":"test" 
+			           									  ,"description":"Portrait, 18th century (Oil on canvas)" 
 			           									  } 
 			           									 ]	
 			           						  },{"type":"decorative",
@@ -117,26 +84,26 @@
 			           				},{"name": "18"
 			           				      ,"types":[{"type":"painting",
 			           				                 "details":[{"file_name":"americas_painting_19_1.jpg"                          
-			           								  ,"description":"test" 		
+			           								  ,"description":"Mrs. Charles Cummings, Harry Inman, 1825 (Oil on canvas)" 		
 			           								  },
 			           								  {"file_name":"americas_painting_19_2.jpg"                          
-			           								  ,"description":"test" 
+			           								  ,"description":"Curfew Hour, Albert Pinkham Ryder, 1882 (Oil on canvas)" 
 			           								   } 
 			           								  ]             		  
 			           				                },{"type":"sculpture",
 			           				                 "details":[{"file_name":"americas_sculpture_19_1.jpg"                          
-			           									        ,"description":"test" 		
+			           									        ,"description":"Catcher, Ott and Brewer, 1896, (Porcelain)" 		
 			           									        },
 			           									        {"file_name":"americas_sculpture_19_2.jpg"                          
-			           									        ,"description":"test" 
+			           									        ,"description":"America, Hiram Powers, 1850 (Marble)" 
 			           									        } 
 			           						           		   ]
 			           						        },{"type":"decorative",
 			           				                 "details":[{"file_name":"americas_decorative_19_1.jpg"                          
-			           									        ,"description":"test" 		
+			           									        ,"description":"Basket, 19th century" 		
 			           									        },
 			           									        {"file_name":"americas_decorative_19_2.jpg"                          
-			           									        ,"description":"test" 
+			           									        ,"description":"Tile, J and G. Low, 1882, (Ceramic)" 
 			           									        } 
 			           						           		   ]
 			           						        },{"type":"textile",
@@ -153,34 +120,24 @@
 			           				},{"name": "20"
 			           				      ,"types":[{"type":"painting",
 			           				                 "details":[{"file_name":"americas_painting_20_1.jpg"                          
-			           								  ,"description":"test" 		
+			           								  ,"description":"Alan Harriman, George de Forest Brush, 1905 (Oil on canvas)" 		
 			           								  },
 			           								  {"file_name":"americas_painting_20_2.jpg"                          
-			           								  ,"description":"test" 
+			           								  ,"description":"Golden Afternoon, Childe Hassam, 1908 (Oil on canvas)" 
 			           								   } 
 			           								  ]             		  
 			           				                },{"type":"sculpture",
 			           				                 "details":[{"file_name":"americas_sculpture_20_1.jpg"                          
-			           									        ,"description":"test" 		
+			           									        ,"description":"Bronze, 20th century" 		
 			           									        },
 			           									        {"file_name":"americas_sculpture_20_2.jpg"                          
-			           									        ,"description":"test" 
-			           									        } 
-			           						           		   ]
-			           						        },{"type":"decorative",
-			           				                 "details":[{"file_name":"americas_decorative_20_1.jpg"                          
-			           									        ,"description":"test" 		
-			           									        },
-			           									        {"file_name":"americas_decorative_20_2.jpg"                          
-			           									        ,"description":"test" 
+			           									        ,"description":"Antoinette Krashaar, Gaston Lachaise, 1923 (Marble)" 
 			           									        } 
 			           						           		   ]
 			           						        },{"type":"textile",
-			           				                 "details":[{"file_name":"americas_textile_20_1.jpg"                          
-			           									        ,"description":"test" 		
-			           									        },
+			           				                 "details":[
 			           									        {"file_name":"americas_textile_20_2.jpg"                          
-			           									        ,"description":"test" 
+			           									        ,"description":"Purse, Whiting and Davis company, 1920 (metal)" 
 			           									        } 
 			           						           		   ] 		      		    
 			           								}	 
@@ -204,10 +161,10 @@
 			           									 ]	
 			           						  },{"type":"sculpture",
 			           						     "details":[{"file_name":"asia_sculpture_18_1.jpg"
-			           						  			  ,"description":"test2"
+			           						  			  ,"description":"Bronze, 18th century"
 			           						  			  },
 			           						  			  {"file_name":"asia_sculpture_18_2.jpg"
-			           						  			  ,"description":"test2"
+			           						  			  ,"description":"Ceramic, 18th century"
 			           						  			  }
 			           						  			  
 			           						  			  ] 
@@ -216,7 +173,7 @@
 			           						  			  ,"description":"Dish, 1710-30 (Hard-paste porcelain)"
 			           						  			  },
 			           						  			  {"file_name":"asia_decorative_18_2.jpg"
-			           						  			  ,"description":"test2"
+			           						  			  ,"description":"Bowl, 18th century"
 			           						  			  } 
 			           						  			  ] 
 			           				         },{"type":"textile",
@@ -234,10 +191,10 @@
 			           				},{"name": "18"
 			           				      ,"types":[{"type":"painting",
 			           				                 "details":[{"file_name":"asia_painting_19_1.jpg"                          
-			           								  ,"description":"test" 		
+			           								  ,"description":"Painting, 19th century" 		
 			           								  },
 			           								  {"file_name":"asia_painting_19_2.jpg"                          
-			           								  ,"description":"test" 
+			           								  ,"description":"Painting, 19th century" 
 			           								   } 
 			           								  ]             		  
 			           				                },{"type":"sculpture",
@@ -245,7 +202,7 @@
 			           									        ,"description":"Netsuke of Octopus, 19th century (Ivory)" 		
 			           									        },
 			           									        {"file_name":"asia_sculpture_19_2.jpg"                          
-			           									        ,"description":"test" 
+			           									        ,"description":"Ceramic, 19th century" 
 			           									        } 
 			           						           		   ]
 			           						        },{"type":"decorative",
@@ -253,12 +210,12 @@
 			           									        ,"description":"Box with lid, 19th century (Sprinkled gold on lacquered wood)" 		
 			           									        },
 			           									        {"file_name":"asia_decorative_19_2.jpg"                          
-			           									        ,"description":"test" 
+			           									        ,"description":"Bowls, 19th century" 
 			           									        } 
 			           						           		   ]
 			           						        },{"type":"textile",
 			           				                 "details":[{"file_name":"asia_textile_19_1.jpg"                          
-			           									        ,"description":"test" 		
+			           									        ,"description":"Robe, 19th century" 		
 			           									        },
 			           									        {"file_name":"asia_textile_19_2.jpg"                          
 			           									        ,"description":"Bed Curtain border, 1800-1850 (Linen)" 
@@ -326,15 +283,7 @@
 			           						  			  ]
 			           				         }]          		  
 			           				},{"name": "18"
-			           				      ,"types":[{"type":"painting",
-			           				                 "details":[{"file_name":"africa_painting_19_1.jpg"                          
-			           								  ,"description":"test" 		
-			           								  },
-			           								  {"file_name":"africa_painting_19_2.jpg"                          
-			           								  ,"description":"test" 
-			           								   } 
-			           								  ]             		  
-			           				                },{"type":"sculpture",
+			           				      ,"types":[{"type":"sculpture",
 			           				                 "details":[{"file_name":"africa_sculpture_19_1.jpg"                          
 			           									        ,"description":"Male Ci Ware Headdress, 1840-60, Mali (wood)" 		
 			           									        },

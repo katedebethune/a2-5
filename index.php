@@ -18,7 +18,7 @@
 <div class="container-fluid">
 <div class="row">
 <div class="col-md-6 col-lg-6" style="text-align:center;">
-	<?php if(count($image_data)==0){ echo "no results found for ".$continent_choice; }?>
+	<?php if(count($image_data)==0){ echo "no results found for ".$continent; }?>
 	<ul class="gallery">
 		<?php foreach($image_data as $image_key=>$image_value) { ?>
                 <?='<li>'?>
@@ -32,6 +32,9 @@
 	</ul>
 </div>
 <div class="col-md-6 col-lg-6" style="text-align:center;">
+<h4>Select from the options below to see highlights from the Met!</h4>
+
+<hr style="width:200px">
 <form method='POST' action="/">
 
   <h4>Object type</h4>
