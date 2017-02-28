@@ -18,7 +18,24 @@
 <div class="container-fluid">
 <div class="row">
 <div class="col-md-6 col-lg-6" style="text-align:center;">
-	<?php if(count($image_data)==0){ echo "no results found for ".$continent; }?>
+
+	<?php if($error): ?>
+		<div class='alert alert-danger'>
+			Please fill out all of the form fields to view the art!
+		</div>
+
+	<?php endif; ?>
+
+
+        <div class='alert alert-info'>Searched for: <?=$form->sanitize($continent)?></div>
+
+	    <?php if(!$haveResults): ?>
+	        <div class='alert alert-warning'>No Art found!</div>
+	    <?php endif; ?>
+
+
+
+
 	<ul class="gallery">
 		<?php foreach($image_data as $image_key=>$image_value) { ?>
                 <?='<li>'?>
@@ -37,7 +54,9 @@
 <hr style="width:200px">
 <form method='POST' action="/">
 
-  <h4>Object type</h4>
+  <label for="checkbox"><h4>Object type</h4></label>
+
+  <br>
   <input type="checkbox" name="checkbox[]" value="textile"> textiles<br><br>
   <input type="checkbox" name="checkbox[]" value="decorative"> decorative<br><br> 
   <input type="checkbox" name="checkbox[]" value="painting"> paintings<br><br> 
@@ -45,14 +64,16 @@
   <hr style="width:200px">
 
 
-  <h4>Date of creation</h4>
+  <label for="century"><h4>Date of creation</h4></label>
+  <br>
   <input type="radio" name="century" value="17"> 1600-1800 AD<br><br>
   <input type="radio" name="century" value="18"> 1800-1900 AD<br><br>
   <input type="radio" name="century" value="20"> 1900-present<br><br>  
 
   <hr style="width:200px">
 
-  <h4>Continent</h4>
+  <label for="continent"><h4>Continent</h4></label>
+  <br>
 
   <select name="continent">
   <option value="Africa">Africa</option>
@@ -61,6 +82,7 @@
   <option value="Americas">Americas</option>
   </select>
 
+  <br><br>
   <input type="submit" value="Submit">
 
 
